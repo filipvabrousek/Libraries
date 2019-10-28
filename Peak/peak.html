@@ -23,10 +23,18 @@
             <div id="navback">
             </div>
 
-            <div id="center-hide">
+         <!--<div id="center-hide">
                 <button id="hide">xx</button>
-            </div>
+            </div>-->
+            
+            <button id="h">☰</button>
 
+            <style>
+            
+              
+            </style>
+                
+                
 
             <div id="left">
                 <button class="btn-nav" id="close">×</button>
@@ -69,14 +77,7 @@
 
             You can find brief overview of my bio, past results and racing plans here. There is also some brief description of all the equipment I use. For more pictures please visit my Facebook gallery.</p>
 
-        <ul>
-            <li>13 times Czech National lM Distance Champion</li>
-            <li>80 times top 10 at official lronman races (world record)</li>
-            <li>21 times top 10 at official Challenge full distance races (world record)</li>
-            <li>15 times Ironman Hawaii Kona Pro qualifier (99-13)</li>
-            <li>40 times Ironman distance overall Champion</li>
-            <li>2 times Long Distance Triathlon World Cup winner 2006 a 2011</li>
-        </ul>
+      
     </section>
 
 
@@ -151,6 +152,19 @@
     </section>
 
     <style>
+        
+          #h {
+             
+               
+                font-weight: bold;
+                 border: none;
+                 background: clear;
+                font-size: 3em;
+                 margin-left: 90vw;
+               display: none;
+                }
+        
+        
         .card-title h4 {
             color: #3498db;
             font-size: 2.5em;
@@ -191,11 +205,7 @@
         
       
 
-        @media only screen and (max-width: 70em) {
-            .card-title h4 {
-                font-size: 4em;
-            }
-        }
+        
 
     </style>
 
@@ -220,6 +230,13 @@
 
     </footer>
     <style>
+        
+        
+        #hide, #h {
+            display: none;
+        }
+        
+        
         #social img:hover {
             transition: 0.7s ease-in-out;
             opacity: 0.7;
@@ -279,9 +296,7 @@
             width: 100vw;
         }
 
-        #hide {
-            display: none;
-        }
+      
 
         #center-buttons {
             color: #3498db;
@@ -477,12 +492,12 @@
         h2 {
             font-size: 4rem;
             margin-bottom: 0.3em;
-            margin-top: 1.2em;
+           
         }
 
         p {
             font-size: 1.5em;
-            margin-bottom: 2em;
+          /*  margin-bottom: 2em;*/
         }
 
         .color {
@@ -545,27 +560,9 @@
             .small {
                 width: 50vw;
             }
-
-            .race-t {
-                font-size: 3.2em;
-            }
-
-            .sm-title {
-                font-size: 5em;
-            }
-
+            
             #close {
                 display: block;
-            }
-
-
-            .sub {
-                font-size: 6em;
-            }
-
-
-            p {
-                font-size: 2.7em;
             }
 
             #align {
@@ -577,19 +574,15 @@
                 position: absolute;
                 margin-top: -2.7em;
                 z-index: 1;
-                font-size: 7em;
             }
-
-            btn-nav {
-                font-size: 4em;
-            }
-
+            
+            
             .btn-main {
                 /*--------WARNING 70 EM -------*/
                 margin-top: 8em;
                 padding: 1em 0em 1em 0em;
                 width: 40vw;
-                font-size: 3em;
+               
             }
 
             .title {
@@ -599,6 +592,251 @@
             }
 
 
+           
+
+            #placeholder {
+                text-align: center;
+            }
+            
+        .color {
+                width: 92vw;
+            }
+            
+            #hide {
+                position: absolute;
+                margin-top: -0.6em;
+                padding-right: 1em;
+            }
+            
+            
+            .btn-nav {
+                margin-top: 1.5em;
+            }
+
+            .lang {
+                align-items: center;
+                justify-content: center;
+            }
+
+            .lang>* {
+                width: 12vw;
+                padding: 1em;
+            }
+
+          
+
+            #close {
+                display: block;
+            }
+
+            #align {
+                height: 10vw;
+            }
+
+           
+            #left>a {
+                background: white;
+                padding-bottom: .3em;
+               
+                width: 8em;
+                padding: 0;
+               /* margin-left: calc(50vw - 4em);*/
+            }
+            
+              #left {
+                display: flex; /* !important */
+                flex-direction: column;
+                position: absolute;
+                width: 100vw;
+                margin-left: 0vw;
+                margin-top: -225em;
+                z-index: 11;
+            }
+
+            #left>button {
+                padding-bottom: .3em;
+               
+                width: 8em;
+                /*margin-left: calc(50vw - 4em);*/
+            }
+
+            .btn-nav {
+               
+                color: black;
+            }
+
+            #left button {
+                color: black;
+            }
+            
+            
+           
+
+           
+
+        
+
+            #placeholder {
+               
+                text-align: center;
+            }
+
+            select {
+                margin-top: 3em;
+            }
+
+            .btn-nav {
+                font-size: 2.1em;
+                color: white;
+            }
+
+            .color {
+               
+                width: 92vw;
+            }
+
+            .center-select {
+                padding-top: 20em;
+            }
+
+            .btn-nav {
+                color: green;
+            }
+
+            #left a {
+                color: black;
+            }
+
+            #center-hide {
+                position: absolute;
+                margin-top: 4em;
+
+                padding-top: 2em;
+                height: 6vw;
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+            }
+
+            #hide {
+                display: block;
+                background: none;
+                z-index: 11;
+                margin-right: 2em;
+                width: 60;
+                height: 49;
+                color: transparent;
+                background-image: url(https://i.imgur.com/ZC5VN4R.png);
+                background-repeat: no-repeat;
+                border: none;
+            }
+
+
+            #navback {
+                display: none;
+                width: 100%;
+                height: 220em;
+                background: white;
+                z-index: 10;
+                position: relative;
+            }
+
+        }
+
+        
+        @media only screen and (max-width: 40em) {
+            .btn-main {
+                width: 70vw;
+            }
+        }
+        
+        /*-----------------------CHANGE FONT SIZE HERE-----------------------*/
+        @media (max-device-width: 415px) {
+          
+            .btn-nav {
+                font-size: 4em;
+            }
+            
+             .sub {
+                font-size: 6em;
+            }
+
+
+            p {
+                font-size: 2.7em;
+            }
+            
+             .race-t {
+                font-size: 3.2em;
+            }
+
+            .sm-title {
+                font-size: 3em;
+            }
+            
+            .btn-main {
+                font-size: 3em;
+            }
+            
+            .color {
+                font-size: 2em;
+            }
+            
+            .maintitle {
+                font-size: 7em;
+            }
+            
+             .title {
+                font-size: 3em;
+            }
+
+            select {
+                font-size: 1.8em;
+            }
+            
+            #placeholder {
+                font-size: 2.9em;
+            }
+            
+            
+            .btn-nav {
+                margin-top: 1.5em;
+            }
+
+            footer {
+                font-size: 2em;
+            }
+
+            
+            
+
+            ul li {
+                font-size: 2.6em;
+            }
+
+           
+            
+            
+           
+            #left>a {
+               
+                font-size: 4em;
+    
+            }
+            
+             
+
+            #left>button {
+                font-size: 4em;
+            }
+
+            .btn-nav {
+                font-size: 2.1em;
+            }
+
+            
             .title {
                 font-size: 3em;
             }
@@ -609,65 +847,30 @@
 
             #placeholder {
                 font-size: 2.9em;
-                text-align: center;
+              
             }
 
+            select {
+                margin-top: 3em;
+            }
 
-
+            .btn-nav {
+                font-size: 2.1em;
+                
+            }
 
             .color {
                 font-size: 2em;
-                width: 92vw;
             }
 
-
-        }
-
-
-
-        @media only screen and (max-width: 40em) {
-            .btn-main {
-                width: 70vw;
-            }
-        }
-
-
-
-
-        @media only screen and (max-width:40em) {
-
-
-
-
-
-            h1 {
-                font-size: 5em;
-            }
-
-
-
-            .F-content>h2 {
+            #hide {
                 font-size: 4em;
-                padding-left: 0em;
-                padding-bottom: 0.5em
             }
-
-            .F-content>p {
-                padding-left: 1em;
-                font-size: 1.1em;
-            }
-
-            .clear {
-                margin-top: 0em;
-            }
-
-
-
         }
 
     </style>
 
-    <link rel="stylesheet" href="common.css">
+   <!-- <link rel="stylesheet" href="common.css">-->
     <link rel="stylesheet" href="cards.css">
 
     <style>
@@ -736,7 +939,7 @@
         }
 
         #left button {
-            font-size: 1.35em;
+            font-size: 4em;
         }
 
 
@@ -797,157 +1000,13 @@
         }
 
         /*--------------------------------------------------MEDIA QUERIES--------------------------------------------------*/
-        @media only screen and (max-width: 70em) {
-
-            .btn-nav {
-                margin-top: 1.5em;
-            }
-
-            footer {
-                font-size: 2em;
-            }
-
-            .lang {
-                align-items: center;
-                justify-content: center;
-            }
-
-            .lang>* {
-                width: 12vw;
-                padding: 1em;
-            }
-
-            ul li {
-                font-size: 2.6em;
-            }
-
-            #close {
-                display: block;
-            }
-
-            #align {
-                height: 10vw;
-            }
-
-           
-            #left>a {
-                background: white;
-                padding-bottom: .3em;
-                font-size: 4em;
-                width: 8em;
-                padding: 0;
-               /* margin-left: calc(50vw - 4em);*/
-            }
-            
-              #left {
-                display: flex; /* !important */
-                flex-direction: column;
-                position: absolute;
-                width: 100vw;
-                margin-left: 0vw;
-                margin-top: -225em;
-                z-index: 11;
-            }
-
-            #left>button {
-                padding-bottom: .3em;
-                font-size: 4em;
-                width: 8em;
-                /*margin-left: calc(50vw - 4em);*/
-            }
-
-            .btn-nav {
-                font-size: 2.1em;
-                color: black;
-            }
-
-            #left button {
-                color: black;
-            }
-            
-            
-           
-
-            .title {
-                font-size: 3em;
-            }
-
-            select {
-                font-size: 1.8em;
-            }
-
-            #placeholder {
-                font-size: 2.9em;
-                text-align: center;
-            }
-
-            select {
-                margin-top: 3em;
-            }
-
-            .btn-nav {
-                font-size: 2.1em;
-                color: white;
-            }
-
-            .color {
-                font-size: 2em;
-                width: 92vw;
-            }
-
-            .center-select {
-                padding-top: 20em;
-            }
-
-            .btn-nav {
-                color: green;
-            }
-
-            #left a {
-                color: black;
-            }
-
-            #center-hide {
-                position: absolute;
-                margin-top: 4em;
-
-                padding-top: 2em;
-                height: 6vw;
-                width: 100vw;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-end;
-            }
-
-            #hide {
-                display: block;
-                font-size: 4em;
-                background: none;
-                z-index: 11;
-                margin-right: 2em;
-                width: 60;
-                height: 49;
-                color: transparent;
-                background-image: url(https://i.imgur.com/ZC5VN4R.png);
-                background-repeat: no-repeat;
-                border: none;
-            }
-
-
-            #navback {
-                display: none;
-                width: 100%;
-                height: 220em;
-                background: white;
-                z-index: 10;
-                position: relative;
-            }
-
-
-          
+     
+        @media only screen and (max-width:70em) {
+              #h {
+            display: block;
         }
-
+        }
+      
 
         @media only screen and (max-width:40em) {
 
@@ -956,9 +1015,9 @@
                 grid-template-columns: 1fr;
             }
 
-            .nav-item a {
+          /*  .nav-item a {
                 font-size: 1.7em;
-            }
+            }*/
 
             #navback {
                 margin-top: 1300px;
@@ -968,27 +1027,19 @@
                 padding: 0.6em;
             }
 
-            nav {
+            
+           
+        /*    nav {
                 font-size: 0.6em;
             }
 
             ul {
                 font-size: 1.1em;
-            }
+            }*/
         }
 
     </style>
-    <style>
-        /*-------------------------ONLY FOR THIS PAGE-------------------------*/
-        @media only screen and (max-width: 70em) {
-            #hide {
-                position: absolute;
-                margin-top: -0.6em;
-                padding-right: 1em;
-            }
-        }
-
-    </style>
+    
 
 
 
@@ -1051,7 +1102,7 @@
 
 
 
-        S("#hide").addEventListener("click", () => {
+        S("#h").addEventListener("click", () => {
 
             if (isHidden == true) {
                 isHidden = false
@@ -1080,6 +1131,17 @@
             }
         });
 
+        
+        /* if (window.matchMedia("(max-width: 70.5em)")){
+           S("#h").style.display = "block";
+     
+        };
+        
+         if (window.matchMedia("(min-width: 71em)")){
+           S("#h").style.display = "none";
+     
+        };
+        */
 
 
         /*

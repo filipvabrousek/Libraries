@@ -110,13 +110,7 @@
         padding-top: 3em;
     }
     
-    .sm {
-        font-size: 3em;
-    }
-
-    .sponsor {
-        font-size: 3em;
-    }
+   
 
     #wrapper,
     #float,
@@ -130,13 +124,44 @@
 
 
 
-    .sm-title {
-        font-size: 5em;
-    }
+    
 
 
 }
 
+
+@media (max-device-width: 415px)  {
+    
+
+    
+    .sm {
+        font-size: 3em;
+    }
+
+    .sponsor {
+        font-size: 3em;
+    }
+
+
+    
+   
+            .card-title h4 {
+                font-size: 4em;
+            }
+    
+    .sm-title {
+        font-size: 4em;
+    }
+    
+     .sm {
+        font-size: 3em;
+    }
+
+    .sponsor {
+        font-size: 3em;
+    }
+        
+}
 
 
 
