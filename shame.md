@@ -8,4 +8,5 @@ List of non-responsive websites as of 19/11/2019
 * https://www.sujb.cz/
 * https://www.etriatlon.cz/
 * http://krusnoman.cz/
+* http://arngren.net/
 
