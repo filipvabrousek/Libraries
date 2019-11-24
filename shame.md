@@ -11,4 +11,4 @@ List of non-responsive websites as of 19/11/2019
 * http://arngren.net/
 * http://antarcticfoundation.cz/
 * https://www.vokolopriglu.cz/
-
+* https://www.skolamalenovice.cz/
