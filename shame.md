@@ -1,5 +1,5 @@
 # List of shame
-List of non-responsive websites as of 28/11/2019
+List of non-responsive websites as of 29/11/2019
 
 * http://www.vertikon.cz/
 * http://www.lezec.cz/
@@ -14,8 +14,6 @@ List of non-responsive websites as of 28/11/2019
 * http://arngren.net/
 * http://antarcticfoundation.cz/
 * https://www.vokolopriglu.cz/
-* https://www.skolamalenovice.cz/
 * https://www.serialzone.cz/serialy/
-* http://www.etriatlon.cz/
 
 19/11/19 - first verison
