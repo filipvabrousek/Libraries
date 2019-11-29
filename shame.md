@@ -4,6 +4,8 @@ List of non-responsive websites as of 28/11/2019
 * http://www.vertikon.cz/
 * http://www.lezec.cz/
 * https://www.policie.cz/
+* https://www.hzscr.cz/
+* https://www.mvcr.cz/
 * https://www.csfd.cz/
 * https://www.skolamalenovice.cz/
 * https://www.sujb.cz/
