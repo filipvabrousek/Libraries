@@ -14,8 +14,10 @@ List of non-responsive websites as of 25/02/2020 ⚠️
 * http://arngren.net/
 * http://antarcticfoundation.cz/
 * https://www.vokolopriglu.cz/
-* https://www.serialzone.cz/serialy/
 * http://www.kasava.cz/
 
+
+## Fixed 🙂
+* https://www.serialzone.cz/serialy/
 
 19/11/19 - first verison
