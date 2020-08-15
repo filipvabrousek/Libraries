@@ -13,11 +13,11 @@ List of 14 non-responsive websites as of 25/02/2020 ⚠️
 * http://krusnoman.cz/
 * http://arngren.net/
 * http://antarcticfoundation.cz/
-* https://www.vokolopriglu.cz/
 * http://www.kasava.cz/
 
 
 ## Fixed 🙂
 * https://www.serialzone.cz/serialy/
+* https://www.vokolopriglu.cz/
 
 19/11/19 - first verison
