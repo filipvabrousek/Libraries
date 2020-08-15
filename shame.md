@@ -1,5 +1,5 @@
 # List of shame
-List of 14 non-responsive websites as of 25/02/2020 ⚠️
+List of 14 non-responsive websites as of 15/08/2020 ⚠️
 
 * http://www.vertikon.cz/
 * http://www.lezec.cz/
