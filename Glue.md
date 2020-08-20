@@ -1,6 +1,6 @@
-# Pin.swift
-* Simple Swift Auto Layout library for building effortless constraints
-
+# Glue.swift
+* Simple Swift Auto Layout library for building effortless constraints and connecting SwiftUI to UIKit
+ 
 ## Examples:
 
 ## SwiftUI
