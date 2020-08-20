@@ -23,55 +23,76 @@ view.pinTo(another, position: .bottom, h: 40, margin: 10)
 ## SwiftUI support
 
 ```swift
+
 extension UIViewController {
-    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, left: CGFloat, w: CGFloat, h: CGFloat) where Content: View {
+    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, left: CGFloat, w: CGFloat, h: CGFloat, clear: Bool = false) where Content: SwiftUI.View {
         let host = UIHostingController(rootView: newView)
-        addChild(host)
+       
+        if (clear){
+            host.view.backgroundColor = .clear
+        }
+      
         view.addSubview(host.view)
         host.view.pin(a: .top, b: .left, ac: top, bc: left, w: w, h: h, to: self.view)
     }
-
-    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, right: CGFloat, w: CGFloat, h: CGFloat) where Content: View {
+    
+    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, right: CGFloat, w: CGFloat, h: CGFloat, clear: Bool = false) where Content: SwiftUI.View {
         let host = UIHostingController(rootView: newView)
-        addChild(host)
-        view.addSubview(host.view)
-        host.view.pin(a: .top, b: .right, ac: top, bc: right, w: w, h: h, to: self.view)
-    }
+        if (clear){
+            host.view.backgroundColor = .clear
+        }
+            view.addSubview(host.view)
+            host.view.pin(a: .top, b: .right, ac: top, bc: right, w: w, h: h, to: self.view)
+        }
 
-    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, middle: Bool, w: CGFloat, h: CGFloat) where Content: View {
-        let host = UIHostingController(rootView: newView)
-        addChild(host)
-        view.addSubview(host.view)
-        host.view.pin(a: .top, b: .middle, ac: top, bc: 0, w: w, h: h, to: self.view)
-    }
+    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, middle: Bool, w: CGFloat, h: CGFloat, clear: Bool = false) where Content: SwiftUI.View {
+            let host = UIHostingController(rootView: newView)
+        
+        if (clear){
+            host.view.backgroundColor = .clear
+        }
+            view.addSubview(host.view)
+            host.view.pin(a: .top, b: .middle, ac: top, bc: 0, w: w, h: h, to: self.view)
+        }
 
-    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, center: Bool, w: CGFloat, h: CGFloat) where Content: View {
-        let host = UIHostingController(rootView: newView)
-        addChild(host)
-        view.addSubview(host.view)
-        host.view.pin(a: .top, b: .center, ac: top, bc: 0, w: w, h: h, to: self.view)
-    }
+    func addSwiftUI<Content>(_ newView: Content, top: CGFloat, center: Bool, w: CGFloat, h: CGFloat, clear: Bool = false) where Content: SwiftUI.View {
+            let host = UIHostingController(rootView: newView)
+            
+            
+            if (clear){
+                host.view.backgroundColor = .clear
+            }
+            
+            view.addSubview(host.view)
+            host.view.pin(a: .top, b: .center, ac: top, bc: 0, w: w, h: h, to: self.view)
+        }
 
-    func bottomPinSwiftUI<Content>(_ newView: Content, top: CGFloat, safe: Bool) where Content: View {
-        let host = UIHostingController(rootView: newView)
-        addChild(host)
-        view.addSubview(host.view)
-        host.view.bottomPin(top: top, safe: safe)
-    }
+    func bottomPinSwiftUI<Content>(_ newView: Content, top: CGFloat, safe: Bool, clear: Bool = false) where Content: SwiftUI.View {
+            let host = UIHostingController(rootView: newView)
+            if (clear){
+                host.view.backgroundColor = .clear
+            }
+            view.addSubview(host.view)
+            host.view.bottomPin(top: top, safe: safe)
+        }
 
-    func stretchSwiftUI<Content>(_ newView: Content, insets: [CGFloat]) where Content: View {
-        let host = UIHostingController(rootView: newView)
-        addChild(host)
-        view.addSubview(host.view)
-        host.view.stretch(within: self.view, insets: insets)
-    }
+    func stretchSwiftUI<Content>(_ newView: Content, insets: [CGFloat], clear: Bool = false) where Content: SwiftUI.View {
+            let host = UIHostingController(rootView: newView)
+            if (clear){
+                host.view.backgroundColor = .clear
+            }
+            view.addSubview(host.view)
+            host.view.stretch(within: self.view, insets: insets)
+        }
 
-    func pinToSwiftUI<Content>(_ newView: Content, to: UIView, position: UIView.Q, h: CGFloat, margin: CGFloat) where Content: View {
-        let host = UIHostingController(rootView: newView)
-        addChild(host)
-        view.addSubview(host.view)
-        host.view.pinTo(to, position: position, h: h, margin: margin)
-    }
+    func pinToSwiftUI<Content>(_ newView: Content, to: UIView, position: UIView.Q, h: CGFloat, margin: CGFloat, clear: Bool = false) where Content:SwiftUI.View {
+            let host = UIHostingController(rootView: newView)
+            if (clear){
+                host.view.backgroundColor = .clear
+            }
+            view.addSubview(host.view)
+            host.view.pinTo(to, position: position, h: h, margin: margin)
+        }
 }
 ```
 
