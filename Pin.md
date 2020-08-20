@@ -11,7 +11,6 @@ struct StatsText: SwiftUI.View {
             HStack {
                 Text("Stats")
                     .font(.system(size: 40, weight: .heavy, design: .default))
-                    .border(Color.blue, width: 3)
               Spacer()
             }
         }
